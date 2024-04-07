@@ -1,0 +1,52 @@
+{
+  "print": {
+    "description": "打印对象到文本流或标准输出。",
+    "example": "print('Hello, World!')",
+    "url": "https://docs.python.org/3/library/functions.html#print"
+  },
+  "len": {
+    "description": "返回对象的长度（元素个数）。",
+    "example": "len([1, 2, 3])",
+    "url": "https://docs.python.org/3/library/functions.html#len"
+  },
+  "range": {
+    "description": "生成一个数字序列。",
+    "example": "for i in range(5): print(i)",
+    "url": "https://docs.python.org/3/library/functions.html#func-range"
+  },
+  "str.lower": {
+    "description": "将字符串中所有大写字符转换为小写。",
+    "example": "'HELLO'.lower()",
+    "url": "https://docs.python.org/3/library/stdtypes.html#str.lower"
+  },
+  "str.upper": {
+    "description": "将字符串中的所有小写字符转换为大写。",
+    "example": "'hello'.upper()",
+    "url": "https://docs.python.org/3/library/stdtypes.html#str.upper"
+  },
+  "list.append": {
+    "description": "将一个对象添加到列表的末尾。",
+    "example": "lst = [1, 2, 3]\nlst.append(4)\nprint(lst)",
+    "url": "https://docs.python.org/3/tutorial/datastructures.html#more-on-lists"
+  },
+  "dict.items": {
+    "description": "以列表返回可遍历的(键, 值) 元组数组。",
+    "example": "d = {'a': 1, 'b': 2}\nfor key, value in d.items():\n  print(key, value)",
+    "url": "https://docs.python.org/3/library/stdtypes.html#dict.items"
+  },
+  "str.format": {
+    "description": "进行字符串格式化。",
+    "example": "'Hello, {}'.format('world!')",
+    "url": "https://docs.python.org/3/library/stdtypes.html#str.format"
+  },
+  "int": {
+    "description": "将一个字符串或数字转换为整型。",
+    "example": "int('10')",
+    "url": "https://docs.python.org/3/library/functions.html#int"
+  },
+  "float": {
+    "description": "将一个字符串或数字转换为浮点数。",
+    "example": "float('10.5')",
+    "url": "https://docs.python.org/3/library/functions.html#float"
+  }
+}
